@@ -1,0 +1,5 @@
+apps:
+    - script: ./index.js
+      name: sample-api
+      instances: 2
+      exec_mode: cluster

@@ -1,0 +1,16 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "docker-start": "pm2 start deploy.yaml"
+  },
+  "author": "koty BLEU",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
